@@ -44,3 +44,22 @@ services:
      - REDIS_REPLICATION_MODE=master
     networks:
     - efishery-net
+
+### Golang Based Services Container ###########################
+  # Auth service
+  auth-service:
+    container_name: auth-service
+    environment:
+      APP_NAME: auth-service       
+    build:
+      context: ./servers/gobase
+      args:
+        - APP_NAME=auth-service
+    volumes:
+      - ./workspace/auth-service:/app/auth-service
+    ports:
+      - "8080:8080"
+    links:
+      - efishery-db    
+    networks:
+      - efishery-net
