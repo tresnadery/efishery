@@ -63,3 +63,21 @@ services:
       - efishery-db    
     networks:
       - efishery-net
+
+  storage-service:
+    container_name: storage-service
+    environment:
+      APP_NAME: storage-service    
+    env_file: ./app.env
+    build:
+      context: ./servers/gobase
+      args:
+        - APP_NAME=storage-service
+    volumes:
+      - ./workspace/storage-service:/app/storage-service
+    ports:
+      - "8081:8081"
+    links:
+      - efishery-db    
+    networks:
+      - efishery-net
