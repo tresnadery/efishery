@@ -1,0 +1,46 @@
+version: '3'
+
+## Network Configuration #######################################
+networks:
+  efishery-net:
+    driver: bridge
+
+### nginx container ############################################
+services:
+  efishery-lb:
+    container_name: efishery-lb
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./workspace:/app/web
+      - ./logs/nginx:/app/log/nginx
+      - ./servers/nginx/config/nginx.conf:/etc/nginx/nginx.conf
+      - ./servers/nginx/conf.d:/etc/nginx/conf.d
+    networks:
+      - efishery-net
+
+### MariaDB Container #######################################
+  efishery-db:
+    container_name: efishery-db
+    image: postgres:10.11
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=efishery
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=kulikoding
+    volumes:
+      - .data:/var/lib/postgresql/data:rw,delegated
+    networks:
+      - efishery-net
+
+  efishery-redis:
+    container_name: efishery-redis
+    image: "redis:alpine"    
+    ports:
+     - "63780:6379"
+    environment:
+     - REDIS_REPLICATION_MODE=master
+    networks:
+    - efishery-net
