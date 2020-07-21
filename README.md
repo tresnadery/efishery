@@ -1,9 +1,9 @@
 # Endpoint Documentation
-You can see the Endpoint documentation in [Endpoint Documentation] file API.MD
+You can see the Endpoint documentation in [Endpoint Documentation]file API.MD
 
-#Manual Installation
+# Manual Installation
 
-##Requirement
+## Requirement
 
 * golang installed
 
@@ -12,7 +12,7 @@ see [docker documentation](https://docs.docker.com/get-docker/)
 
 * postgres database
 
-#Run Application
+# Run Application
 
 ```docker-compose up```
 
@@ -28,7 +28,7 @@ Use sudo If your docker installed on root :
 
 ```cat dump_21-07-2020_08_59_58.sql |sudo docker exec -i efishery-db psql -U postgres```
 
-#Production Architecture
+# Production Architecture
 
 The below diagram is my proposal deploying for production environment
 
