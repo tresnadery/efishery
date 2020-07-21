@@ -1,5 +1,5 @@
 # Endpoint Documentation
-You can see the Endpoint documentation in [Endpoint Documentation]file API.MD
+You can see the Endpoint documentation in [Endpoint Documentation](API.MD)
 
 # Manual Installation
 
@@ -32,7 +32,7 @@ Use sudo If your docker installed on root :
 
 The below diagram is my proposal deploying for production environment
 
-[Diagram Syste](https://drive.google.com/file/d/1w3XitSQZN6oe_pEhqxPJIRrFDbvjmwT_/view?usp=sharing)
+[Diagram System](https://github.com/tresnadery/efishery/blob/master/static/diagram-system.png)
 
 
 
