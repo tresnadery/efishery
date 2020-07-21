@@ -37,7 +37,7 @@ func NewStorageHandler(ctx *gin.Engine, us domain.StorageUsecase){
 		storageUsecase: us,		
 	}
 	ctx.GET("storages", authHelper.Middleware("all"), handler.Fetch)
-	ctx.GET("storages/aggregate", authHelper.Middleware("admin"), handler.FetchWithAggregate)
+	ctx.GET("admin/storages", authHelper.Middleware("admin"), handler.FetchWithAggregate)
 	ctx.GET("users/profiles", handler.Profile)
 }
 func appendPriceInUSDToStorage(payload *[]domain.Storage, rate float64)(*[]domain.Storage, error){
