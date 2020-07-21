@@ -32,7 +32,7 @@ Use sudo If your docker installed on root :
 
 The below diagram is my proposal deploying for production environment
 
-[Diagram System](https://github.com/tresnadery/efishery/blob/master/static/diagram-system.png)
+[Diagram System](https://raw.githubusercontent.com/tresnadery/efishery/master/static/diagram-system.png)
 
 
 
