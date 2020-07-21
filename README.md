@@ -1,5 +1,5 @@
 # Endpoint Documentation
-You can see the Endpoint documentation in [Endpoint Documentation](API.MD)
+You can see the Endpoint documentation in [Endpoint Documentation](API.md)
 
 # Manual Installation
 
