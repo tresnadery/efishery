@@ -60,7 +60,7 @@ Get access token use phone number and password
 
 * Request
 
-** Headers
+* Headers
 
 ```
 	Authorization : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZV9udW1iZXIiOiIwODUxMTExMTExMTExMTEiLCJuYW1lIjoiYWRtaW4xIiwicm9sZV9uYW1lIjoiYWRtaW4iLCJjcmVhdGVkX2F0IjoiMjAyMC0wNy0yMVQwMjowMjo1MS42NjU1OVoiLCJleHAiOjE1OTg4OTY5ODZ9.2RfEirS-V5theutxNuppWF_hZCu19oqQg_BIUq7JzZk
@@ -88,7 +88,7 @@ Get access token use phone number and password
 
 * Request
 
-** Headers
+* Headers
 
 ```
 	Authorization : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZV9udW1iZXIiOiIwODUxMTExMTExMTExMTEiLCJuYW1lIjoiYWRtaW4xIiwicm9sZV9uYW1lIjoiYWRtaW4iLCJjcmVhdGVkX2F0IjoiMjAyMC0wNy0yMVQwMjowMjo1MS42NjU1OVoiLCJleHAiOjE1OTg4OTY5ODZ9.2RfEirS-V5theutxNuppWF_hZCu19oqQg_BIUq7JzZk
@@ -133,7 +133,7 @@ Get access token use phone number and password
 
 * Request
 
-** Headers
+* Headers
 
 ```
 	Authorization : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZV9udW1iZXIiOiIwODUxMTExMTExMTExMTEiLCJuYW1lIjoiYWRtaW4xIiwicm9sZV9uYW1lIjoiYWRtaW4iLCJjcmVhdGVkX2F0IjoiMjAyMC0wNy0yMVQwMjowMjo1MS42NjU1OVoiLCJleHAiOjE1OTg4OTY5ODZ9.2RfEirS-V5theutxNuppWF_hZCu19oqQg_BIUq7JzZk
@@ -174,7 +174,7 @@ Get access token use phone number and password
 
 * Request
 
-** Headers
+* Headers
 
 ```
 	Authorization : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZV9udW1iZXIiOiIwODUxMTExMTExMTExMTEiLCJuYW1lIjoiYWRtaW4xIiwicm9sZV9uYW1lIjoiYWRtaW4iLCJjcmVhdGVkX2F0IjoiMjAyMC0wNy0yMVQwMjowMjo1MS42NjU1OVoiLCJleHAiOjE1OTg4OTY5ODZ9.2RfEirS-V5theutxNuppWF_hZCu19oqQg_BIUq7JzZk
